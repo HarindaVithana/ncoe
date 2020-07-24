@@ -37,7 +37,7 @@
   </table>
   <?php endforeach; ?>
   <div style="text-align:right">
-    <button  type="submit" name="btnnext" class="btn btn-info"><span  class="glyphicon glyphicon-arrow-right"></span> Next </button>
+    <a name="btnnext" class="btn btn-info" href="<?php echo site_url(); ?>olresults"><span  class="glyphicon glyphicon-arrow-right"></span> Next </a>
   </div>
 
 

@@ -1,6 +1,6 @@
 <h2><?= $title; ?></h2>
 <?php echo validation_errors(); ?>
-<?php echo form_open_multipart('posts/create'); ?>
+<?php echo form_open_multipart('olresults/checkolres'); ?>
   <div class="form-group">
       <label for="attempts">How many attempts?</label>
       <select name="sel1" class="form-control" id="sel1">

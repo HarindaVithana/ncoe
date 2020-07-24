@@ -4,7 +4,7 @@ class Olresults extends CI_Controller{
         $data['title'] = 'Ol index';
 
         $this->load->view('templates/header');
-        $this->load->view('pages/ol',$data);
+        $this->load->view('pages/OL',$data);
         $this->load->view('templates/footer');
     }
 
@@ -45,14 +45,14 @@ class Olresults extends CI_Controller{
         // var_dump($data);
         
         
-        $this->form_validation->set_rules('index1', 'index1', 'required');
+        // $this->form_validation->set_rules('index1', 'index1', 'required');
 
-        if($this->form_validation->run() === FALSE){
-            $this->load->view('templates/header');
-            $this->load->view('olresults/showresult',$data);
-            $this->load->view('templates/footer');
-        }else{
-            $this->olresults_model->get_result()
-        }
+        // if($this->form_validation->run() === FALSE){
+        //     $this->load->view('templates/header');
+        //     $this->load->view('olresults/showresult',$data);
+        //     $this->load->view('templates/footer');
+        // }else{
+        //     $this->olresults_model->get_result();
+        // }
     }
 }
