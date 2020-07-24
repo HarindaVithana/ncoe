@@ -2,6 +2,7 @@
 <h2>A/L Results Sheet </h2>
 <?php foreach($alresults as $alresult): ?>
 <h4>Index Number : <?php echo $alresult['AL_index']; ?></h4>
+<?php //session_start(); ?>
   <table class="table">
     
       <?php // var_dump($alresults); ?>
